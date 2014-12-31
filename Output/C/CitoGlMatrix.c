@@ -13,6 +13,7 @@
 
 
 
+
 float GlMatrixMath_Abs(float len)
 {
 	if (len < 0) {
@@ -1898,6 +1899,10 @@ float Quat_SqrLen(float const *a)
 float Quat_SquaredLength(float const *a)
 {
 	return Vec4_SquaredLength(a);
+}
+
+void Test___f(Test__ const *self)
+{
 }
 
 float const *Vec2_Add(float *output, float const *a, float const *b)

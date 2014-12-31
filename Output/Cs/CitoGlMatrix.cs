@@ -2150,6 +2150,14 @@ public class Quat
 	}
 }
 
+public class Test__
+{
+
+	public void f()
+	{
+	}
+}
+
 public class Vec2
 {
 

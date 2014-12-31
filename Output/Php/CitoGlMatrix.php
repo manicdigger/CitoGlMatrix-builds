@@ -2151,6 +2151,14 @@ class Quat
 	}
 }
 
+class Test__
+{
+
+	function f()
+	{
+	}
+}
+
 class Vec2
 {
 

@@ -2603,6 +2603,13 @@ TestVec3.prototype.transformMat4WithAnIdentity = function() {
 	this.assertArrayEqual(result, this.output, 3, "TransformMat4WithAnIdentity should return output");
 }
 
+function Test__()
+{
+}
+
+Test__.prototype.f = function() {
+}
+
 function Tests()
 {
 }

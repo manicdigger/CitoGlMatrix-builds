@@ -1798,6 +1798,13 @@ Quat.squaredLength = function(a) {
 Quat.prototype.f = function() {
 }
 
+function Test__()
+{
+}
+
+Test__.prototype.f = function() {
+}
+
 function Vec2()
 {
 }

@@ -2195,6 +2195,14 @@ class Quat
 	}
 }
 
+class Test__
+{
+
+	final void f()
+	{
+	}
+}
+
 class Vec2
 {
 

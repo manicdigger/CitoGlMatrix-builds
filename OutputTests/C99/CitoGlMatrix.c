@@ -164,6 +164,7 @@ static void TestVec3_TransformMat4WithAnIdentity(TestVec3 const *self);
 
 
 
+
 static void CitoAssert_Construct(CitoAssert *self)
 {
 	self->errors = (const char **) malloc(1024 * sizeof(const char *));
@@ -2953,6 +2954,10 @@ static void TestVec3_TransformMat4WithAnIdentity(TestVec3 const *self)
 	float const *result = Vec3_TransformMat4(self->output, self->vecA, matr);
 	TestVec3_AssertArrayEqual(self, self->output, TestVec3_Arr3(self, 1, 2, 3), 3, "TransformMat4WithAnIdentity should produce the input");
 	TestVec3_AssertArrayEqual(self, result, self->output, 3, "TransformMat4WithAnIdentity should return output");
+}
+
+void Test___f(Test__ const *self)
+{
 }
 
 void Tests_RunAll(void)

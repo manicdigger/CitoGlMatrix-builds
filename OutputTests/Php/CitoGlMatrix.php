@@ -3092,6 +3092,14 @@ class TestVec3
 	private $vecB;
 }
 
+class Test__
+{
+
+	function f()
+	{
+	}
+}
+
 class Tests
 {
 

@@ -3092,6 +3092,14 @@ public class TestVec3
 	float[] vecB;
 }
 
+public class Test__
+{
+
+	public void f()
+	{
+	}
+}
+
 public class Tests
 {
 

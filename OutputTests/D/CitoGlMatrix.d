@@ -3137,6 +3137,14 @@ class TestVec3
 	private const(float)[] vecB;
 }
 
+class Test__
+{
+
+	final void f()
+	{
+	}
+}
+
 class Tests
 {
 

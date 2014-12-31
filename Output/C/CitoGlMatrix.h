@@ -16,6 +16,7 @@ typedef struct Mat2d Mat2d;
 typedef struct Mat3 Mat3;
 typedef struct Mat4 Mat4;
 typedef struct Quat Quat;
+typedef struct Test__ Test__;
 typedef struct Vec2 Vec2;
 typedef struct Vec4 Vec4;
 
@@ -640,6 +641,8 @@ float Quat_SqrLen(float const *a);
  * **
  */
 float Quat_SquaredLength(float const *a);
+
+void Test___f(Test__ const *self);
 
 /**
  * **

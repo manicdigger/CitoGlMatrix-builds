@@ -3240,6 +3240,29 @@ sub f($) {
 	my ($self) = @_;
 }
 
+=head1 Class Test__
+
+=cut
+
+package Test__;
+
+=head2 C<$test__ = Test__-E<gt>new()>
+
+=cut
+
+sub new($) {
+	my $self = bless {}, shift;
+	return $self;
+}
+
+=head2 C<$test__-E<gt>f()>
+
+=cut
+
+sub f($) {
+	my ($self) = @_;
+}
+
 =head1 Class Vec2
 
 =cut

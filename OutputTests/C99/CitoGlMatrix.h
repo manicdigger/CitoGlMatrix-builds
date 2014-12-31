@@ -13,6 +13,7 @@ typedef struct Mat4 Mat4;
 typedef struct Quat Quat;
 typedef struct TestMat4 TestMat4;
 typedef struct TestVec3 TestVec3;
+typedef struct Test__ Test__;
 typedef struct Vec2 Vec2;
 typedef struct Vec4 Vec4;
 
@@ -662,6 +663,8 @@ TestVec3 *TestVec3_New(void);
 void TestVec3_Delete(TestVec3 *self);
 
 void TestVec3_Test(TestVec3 *self);
+
+void Test___f(Test__ const *self);
 
 void Tests_RunAll(void);
 
